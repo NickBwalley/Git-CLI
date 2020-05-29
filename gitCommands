@@ -14,3 +14,5 @@ BASIC COMMANDS
 ->git rm --cached <fileName> #remove a file from the git stage 
 ->git add *.html #adds any file with a HTML extension
 ->git add . #adds all files to the git staging area
+->touch index.html #creates a file from the terminal
+->touch .gitignore #creates a file but ignores it when staging files 
