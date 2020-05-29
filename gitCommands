@@ -9,4 +9,5 @@ BASIC COMMANDS
 ->git push #push to remote repository
 ->git pull #pull the latest from the Remote Repository
 ->git clone #clone Repository to a new Directory
-
+->git config --global user.name <YourUsername>
+->git config --globla user.email <YourEmail>
