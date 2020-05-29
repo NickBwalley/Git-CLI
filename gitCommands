@@ -1,4 +1,12 @@
 *************************
 Git-Hub ->> Commands
+BASIC COMMANDS 
 *************************
+->git init #initialize a Local git repository
+->git add <file> #addfile to index to Index
+->git status #check status on working tree
+->git commit #commit changes in index
+->git push #push to remote repository
+->git pull #pull the latest from the Remote Repository
+->git clone #clone Repository to a new Directory
 
