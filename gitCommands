@@ -15,4 +15,6 @@ BASIC COMMANDS
 ->git add *.html #adds any file with a HTML extension
 ->git add . #adds all files to the git staging area
 ->touch index.html #creates a file from the terminal
-->touch .gitignore #creates a file but ignores it when staging files 
+->touch .gitignore #creates a file but ignores it when staging files <Note that you have to include that file extension in the .gitignore>
+->git branch myBranch #creates a new Branch
+->git checkout myBranch #switches to the new branch
