@@ -18,3 +18,30 @@ BASIC COMMANDS
 ->touch .gitignore #creates a file but ignores it when staging files <Note that you have to include that file extension in the .gitignore>
 ->git branch myBranch #creates a new Branch
 ->git checkout myBranch #switches to the new branch
+******************************
+CHANGE FROM HTTPS TO SSH IN GITHUB
+->git remote -v
+-> git remote set-url origin git@github.com:NickBwalley/Web_Programming.git
+->ssh-keygen
+->====================================
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/nickbwalley/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/nickbwalley/.ssh/id_rsa
+Your public key has been saved in /home/nickbwalley/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:5dzXwJ4DT7FbefcMT5zZMSsJfXJwPzl25KeUxLi3SaE nickbwalley@nickbwalley-TECRA-A50-C
+The key's randomart image is:
++---[RSA 3072]----+
+|           ..+++.|
+|            o==X@|
+|          . .=%@%|
+|         + .E*=%O|
+|        S o .oOo=|
+|             .o. |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+->====================================
