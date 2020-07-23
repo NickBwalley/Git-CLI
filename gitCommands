@@ -1,28 +1,28 @@
-*************************
+*************************************************************************************************************************************************
 Git-Hub ->> Commands
 BASIC COMMANDS 
-*************************
-->git init #initialize a Local git repository
-->git add <file> #addfile to index to Index
-->git status #check status on working tree
-->git commit #commit changes in index
-->git push #push to remote repository
-->git pull #pull the latest from the Remote Repository
-->git clone #clone Repository to a new Directory
-->git config --global user.name <YourUsername>
-->git config --globla user.email <YourEmail>
-->git rm --cached <fileName> #remove a file from the git stage 
-->git add *.html #adds any file with a HTML extension
-->git add . #adds all files to the git staging area
-->touch index.html #creates a file from the terminal
-->touch .gitignore #creates a file but ignores it when staging files <Note that you have to include that file extension in the .gitignore>
-->git branch myBranch #creates a new Branch
-->git checkout myBranch #switches to the new branch
-******************************
+*************************************************************************************************************************************************
+-> git init #initialize a Local git repository
+-> git add <file> #addfile to index to Index
+-> git status #check status on working tree
+-> git commit #commit changes in index
+-> git push #push to remote repository
+-> git pull #pull the latest from the Remote Repository
+-> git clone #clone Repository to a new Directory
+-> git config --global user.name <YourUsername>
+-> git config --globla user.email <YourEmail>
+-> git rm --cached <fileName> #remove a file from the git stage 
+-> git add *.html #adds any file with a HTML extension
+-> git add . #adds all files to the git staging area
+-> touch index.html #creates a file from the terminal
+-> touch .gitignore #creates a file but ignores it when staging files <Note that you have to include that file extension in the .gitignore>
+-> git branch myBranch #creates a new Branch
+-> git checkout myBranch #switches to the new branch
+*************************************************************************************************************************************************
 CHANGE FROM HTTPS TO SSH IN GITHUB
-->git remote -v
--> git remote set-url origin git@github.com:NickBwalley/Web_Programming.git
-->ssh-keygen
+-> git remote -v
+-> git remote set-url origin git@github.com:NickBwalley/Web_Programming.git    # change from HTTPS to SSH and vice-versa
+-> ssh-keygen
 ->====================================
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/nickbwalley/.ssh/id_rsa): 
@@ -45,3 +45,13 @@ The key's randomart image is:
 |                 |
 +----[SHA256]-----+
 ->====================================
+*************************************************************************************************************************************************
+HOW TO PUSH A FILE TO AN EXISTING GIT REPOSITORY
+*************************************************************************************************************************************************
+-> mkdir /nameOfDIR
+-> git init # initialize the DIR to a git repo
+-> git pull https://github.com/username/repo.git  # first you pull the fil from github by cmd...
+-> git remote add origin  https://github.com/username/repo.git # Add all the files to include the file in it
+-> git commit -m "Website"
+-> git push --set-upstream origin master
+*************************************************************************************************************************************************
