@@ -10,7 +10,7 @@ BASIC COMMANDS
 -> git pull #pull the latest from the Remote Repository
 -> git clone #clone Repository to a new Directory
 -> git config --global user.name <YourUsername>
--> git config --globla user.email <YourEmail>
+-> git config --global user.email <YourEmail>
 -> git rm --cached <fileName> #remove a file from the git stage 
 -> git add *.html #adds any file with a HTML extension
 -> git add . #adds all files to the git staging area
