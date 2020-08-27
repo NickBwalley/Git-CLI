@@ -18,6 +18,10 @@ BASIC COMMANDS
 -> touch .gitignore #creates a file but ignores it when staging files <Note that you have to include that file extension in the .gitignore>
 -> git branch myBranch #creates a new Branch
 -> git checkout myBranch #switches to the new branch
+
+# Push an Existing file to an existing Git repo
+-> git remote add origin origin <remote-branch>
+-> git push -f origin master
 *************************************************************************************************************************************************
 CHANGE FROM HTTPS TO SSH IN GITHUB
 -> git remote -v
