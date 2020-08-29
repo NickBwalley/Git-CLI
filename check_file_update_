@@ -1,0 +1,7 @@
+	CHECK IF THE FILE IN YOUR FOLDER IS UP TODATE WITH THE LOCAL REPOSITORY
+-> git remote update
+-> git status -uno
+
+	EXPLANATION
+-> git remote update => to bring remote refs up to date. Then you can do several things 
+-> git status -uno => will tell you whether the branch you are tracking is ahead, behind or has diverged
