@@ -19,9 +19,6 @@ BASIC COMMANDS
 -> git branch myBranch #creates a new Branch
 -> git checkout myBranch #switches to the new branch
 
-# Push an Existing file to an existing Git repo
--> git remote add origin origin <remote-branch>
--> git push -f origin master
 *************************************************************************************************************************************************
 CHANGE FROM HTTPS TO SSH IN GITHUB
 -> git remote -v
@@ -50,12 +47,4 @@ The key's randomart image is:
 +----[SHA256]-----+
 ->====================================
 *************************************************************************************************************************************************
-HOW TO PUSH A FILE TO AN EXISTING GIT REPOSITORY
-*************************************************************************************************************************************************
--> mkdir /nameOfDIR
--> git init # initialize the DIR to a git repo
--> git pull https://github.com/username/repo.git  # first you pull the fil from github by cmd...
--> git remote add origin  https://github.com/username/repo.git # Add all the files to include the file in it
--> git commit -m "Website"
--> git push --set-upstream origin master
-*************************************************************************************************************************************************
+
