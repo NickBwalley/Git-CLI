@@ -49,4 +49,6 @@ The key's randomart image is:
 *************************************************************************************************************************************************
 CLEAR REMOTE ORIGIN 
 -> git remote remove origin 
+INSTEAD OF REMOVING THEN READDING 
+-> git remote set-url origin git://new.url.here
 
