@@ -1,0 +1,4 @@
+#PLEASE MOVE OR REMOVE THEM BEFORE MERGE ERROR
+#SOLVED
+$ git clean -dxf
+$ git pull origin master
