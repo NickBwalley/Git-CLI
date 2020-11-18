@@ -51,4 +51,6 @@ CLEAR REMOTE ORIGIN
 -> git remote remove origin 
 INSTEAD OF REMOVING THEN READDING 
 -> git remote set-url origin git://new.url.here
-
+*************************************************************************************************************************************************
+DISABLE GITHUB POPUPS
+-> git config --global credential.modalPrompt false
