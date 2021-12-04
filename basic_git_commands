@@ -31,3 +31,6 @@ INSTEAD OF REMOVING THEN READDING
 DISABLE GITHUB POPUPS
 -> git config --global credential.modalPrompt false
 ========================================================
+USING GIT AMMEND TO CHANGE THE COMMIT MESSAGE
+-> git commit --ammend # then press enter. 
+========================================================
