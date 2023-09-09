@@ -103,6 +103,21 @@ git config --global user.name [your_github_username]
 git config --global user.email [your_email]
 ```
 
+create a file from the `linux-terminal` and do not push it to GitHub
+Note we place all the files and folders that we don't want to commit to GitHub in this file `.gitignore`
+
+```
+touch .gitignore
+```
+
+## CLI Useful Features
+
+creating a file from the terminal `linux-terminal`
+
+```
+touch [filename.html]
+```
+
 CLONE WITHIN AN ORGANIZATION ---------------
 $ git clone https://username@github.com/org_name/repo_name.git
 
