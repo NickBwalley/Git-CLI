@@ -116,6 +116,24 @@ Clone a project in an organization in GitHub
 git clone https://username@github.com/org_name/repo_name.git
 ```
 
+Switching Remote URL's from SSH to HTTPS
+
+```
+git remote set-url origin https://github.com/username/repo.git
+```
+
+verify that remote URL has changed
+
+```
+git remote -v
+```
+
+Switching Remote URL's from HTTPS to SSH
+
+```
+git remote set-url origin git@github.com:username/repo.git
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `linux-terminal`
