@@ -111,6 +111,12 @@ git checkout [branchname]
 
 ## Advanced GitCommands
 
+Use `amend` to change the commit message
+
+```
+git commit --amend
+```
+
 Remove a file from the Git Staging area
 
 ```
@@ -161,12 +167,30 @@ Switching Remote URL's from HTTPS to SSH
 git remote set-url origin git@github.com:username/repo.git
 ```
 
+Clear Git Remote origin
+
+```
+git remote remove origin
+```
+
+Instead of removing then reading again: You can instead use this command.
+
+```
+git remote set-url origin https://github.com/username/repo.git
+```
+
 ## CLI Useful Features
 
-creating a file from the terminal `linux-terminal`
+creating a file from the terminal `windows-CLI`
 
 ```
 touch [filename.html]
+```
+
+creating a file from the terminal `linux-CLI`
+
+```
+sudo nano [filename.html]
 ```
 
 Install a package_name.deb command
