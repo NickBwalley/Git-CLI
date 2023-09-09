@@ -1,6 +1,6 @@
 # GitHub CheatSheet
 
-## Basic GitHub Commands
+## Basic GitCommands
 
 To perform a github clone
 
