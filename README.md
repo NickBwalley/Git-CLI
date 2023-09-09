@@ -1,6 +1,6 @@
 # GitHub CheatSheet
 
-### Basic GitHub Commands
+## Basic GitHub Commands
 
 To perform a github clone
 
@@ -40,7 +40,7 @@ Push your changes to `main` github repo `gitty-project`
 git push -u origin master
 ```
 
-### Working with GitHub Branches
+## Working with GitHub Branches
 
 creates a github branch
 
