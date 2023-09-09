@@ -49,19 +49,37 @@ git push -u origin master
 creates a github branch
 
 ```
-git branch <branchname>
+git branch [branchname]
 ```
 
 creates a branch and switches to that branch immediately
 
 ```
-git checkout -b <branchname>
+git checkout -b [branchname]
 ```
 
 List github branches
 
 ```
 git branch -a
+```
+
+Delete a branch
+
+```
+git branch -d [branchname]
+```
+
+Rename a local branch
+
+```
+git branch -m [old branch name] [new branch name]
+```
+
+Switch to a branch
+
+```
+git checkout [branchname]
 ```
 
 CLONE WITHIN AN ORGANIZATION ---------------
