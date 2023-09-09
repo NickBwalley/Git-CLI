@@ -243,6 +243,19 @@ Fix any merge conflicts and complete the merge as follows
 git merge --continue
 ```
 
+`SOLVED!:` Please `MOVE` or `REMOVE` them before merge error `SOLVED`
+
+```
+git clean -dxf
+git pull origin master
+```
+
+`Remove` the `.git` hidden folder from the git repo
+
+```
+rm -rf .git
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
