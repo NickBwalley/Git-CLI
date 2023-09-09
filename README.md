@@ -38,7 +38,7 @@ Commit your changes witth a message `initial commit`
 git commit -m "initial commit"
 ```
 
-Push your changes to `main` github repo `gitty-project`
+Push your changes to the upstream origin `master` the `main` github repo `gitty-project`
 
 ```
 git push -u origin master
