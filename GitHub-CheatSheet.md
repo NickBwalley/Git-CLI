@@ -1,25 +1,46 @@
 # GitHub CheatSheet
 
-## Basic Github Commands
+### Basic GitHub Commands
 
-1. To perform a github clone
+To perform a github clone
 
 ```
 git clone https://github.com/username/repo_name.git
 ```
 
-2. Assume you have a project `gitty-project` you would like to add to github. Here are the steps
+1. Assume you have a project `gitty-project` you would like to add to github. Here are the steps
+
+Initialize a git repo
 
 ```
-git init #initializes a local git repository
-git add <filename> #adds the file to index
-git add . #adds all files in the gitty-project
+git init
+```
+
+Add all files to the git staging area
+
+```
+git add .
+```
+
+Confirm that it has been added to the git staging area
+
+```
 git status
-git commit -m "initial commit"
-git push -u origin master #pushes to the upstream master file
 ```
 
-3. Creating a branch and commit to that branch
+Commit your changes witth a message `initial commit`
+
+```
+git commit -m "initial commit"
+```
+
+Push your changes to `main` github repo `gitty-project`
+
+```
+git push -u origin master
+```
+
+### Working with GitHub Branches
 
 creates a github branch
 
