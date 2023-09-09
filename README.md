@@ -191,10 +191,16 @@ Tells you whether the branch you are tracking is ahead, behind or has diverged
 git status -uno
 ```
 
-If you want to erase your whole history and start over again.
+If you want to erase your `whole history` and `start over` again.
 
 ```
 rm -rf .git
+```
+
+If you want to remove `both files` and `history`
+
+```
+rm -rf *
 ```
 
 ## CLI Useful Features
