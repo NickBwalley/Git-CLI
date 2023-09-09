@@ -203,6 +203,46 @@ If you want to remove `both files` and `history`
 rm -rf *
 ```
 
+git fetch downloads the latest from remote without trying to merge or rebase anything.
+Then the git reset resets the master branch to what you just fetched. The --hard option
+Changes all the files in your working tree to match the files in origin/master
+
+```
+git fetch -all
+git reset --hard origin/master
+```
+
+Add the first remote repo
+
+```
+git remote add -f [first_repo] [link_to_first_repo]
+```
+
+```
+git merge --allow-unrelated-histories [first_repo]/master
+```
+
+Create a sub directory and move all first_repo files to it.
+
+```
+mkdir [first_repo]
+mv * [first_repo]
+git add .
+git commit -m "Move first_repo files to first_repo directory"
+```
+
+Add the second remote repository
+
+```
+git remote add -f [second_repo] [link_to_second_repo]
+```
+
+Fix any merge conflicts and complete the merge as follows
+
+```
+git merge --continue
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
