@@ -262,7 +262,7 @@ Disable GitHub `popups`
 git config --global credential.modalPrompt false
 ```
 
-## Git Pull Requests and Merging + Badge
+## Git Pull Requests and Merging
 
 `STEPS`
 
@@ -272,11 +272,7 @@ git config --global credential.modalPrompt false
 4. `git commit -m "initial commit"`
 5. `git push origin newBranch`
 6. `git remote add upstream https://github.com/NickBwalley/repo.git`
-7. `git rebase upstream/master` # add changes to your local existing work
-
-```
-git config --global credential.modalPrompt false
-```
+7. `git rebase upstream/master` # add changes to your local existing work.
 
 ## CLI Useful Features
 
