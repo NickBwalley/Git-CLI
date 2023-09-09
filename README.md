@@ -94,7 +94,7 @@ git branch -a
 Delete a branch
 
 ```
-git branch -d [branchname]
+git branch --delete [branchname]
 ```
 
 Rename a local branch
