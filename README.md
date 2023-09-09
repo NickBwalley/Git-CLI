@@ -191,6 +191,12 @@ Tells you whether the branch you are tracking is ahead, behind or has diverged
 git status -uno
 ```
 
+If you want to erase your whole history and start over again.
+
+```
+rm -rf .git
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
