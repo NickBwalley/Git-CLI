@@ -82,6 +82,27 @@ Switch to a branch
 git checkout [branchname]
 ```
 
+## Advanced GitCommands
+
+Remove a file from the Git Staging area
+
+```
+git rm --cached [filename]
+```
+
+Adds any file with a `.html` extension
+
+```
+git add *.html
+```
+
+Configure git staging and pushing to your GitHub account
+
+```
+git config --global user.name [your_github_username]
+git config --global user.email [your_email]
+```
+
 CLONE WITHIN AN ORGANIZATION ---------------
 $ git clone https://username@github.com/org_name/repo_name.git
 
