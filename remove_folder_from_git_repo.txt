@@ -1,1 +1,0 @@
-rm -rf .git ----> How to remove a folder from a git repository

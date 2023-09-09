@@ -1,8 +1,0 @@
-	REMOVE AN EXISTING FILE FROM THE GIT REPOSITORY AND THE FILE SYSTEM.
--> git rm <filename>
--> git commit -m "removed_file"
--> git push origin <branch_name>
-	REMOVE THE FILE ONLY FROM THE GIT REPOSITORY AND NOT FROM THE FILE SYSTEM.
--> git rm --cached  <filename>
-->git commit -m "removed_file"
-->git push origin <branch_name>

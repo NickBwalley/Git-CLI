@@ -256,6 +256,12 @@ git pull origin master
 rm -rf .git
 ```
 
+Disable GitHub `popups`
+
+```
+git config --global credential.modalPrompt false
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
