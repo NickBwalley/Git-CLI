@@ -44,6 +44,24 @@ Push your changes to `main` github repo `gitty-project`
 git push -u origin master
 ```
 
+Pull the latest commit to the staging area github
+
+```
+git pull
+```
+
+Pull the latest commit from GitHub main/master and replace changes on the HDD
+
+```
+git reset --hard origin/master
+```
+
+Revert the last 5 commits
+
+```
+git reset --hard HEAD~5
+```
+
 ## Working with GitHub Branches
 
 creates a github branch
