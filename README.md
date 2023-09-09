@@ -8,7 +8,7 @@ To perform a github clone
 git clone https://github.com/username/repo_name.git
 ```
 
-1. Assume you have a project `gitty-project` you would like to add to github. Here are the steps
+Assume you have a project `gitty-project` you would like to add to github. Here are the steps
 
 Initialize a git repo
 
@@ -17,6 +17,10 @@ git init
 ```
 
 Add all files to the git staging area
+
+```
+git remote add origin https://github.com/username/gitty-project.git
+```
 
 ```
 git add .
