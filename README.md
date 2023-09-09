@@ -62,6 +62,15 @@ Revert the last 5 commits
 git reset --hard HEAD~5
 ```
 
+`NOTE!!!`: If you have already pushed to a remote, you will get a fast-forward error because your local history diverges from the remote history.
+`THEREFORE:`To fix this error and push your changes to the remote, use:
+
+```
+git push -f
+```
+
+`NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
+
 ## Working with GitHub Branches
 
 creates a github branch
