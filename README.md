@@ -262,6 +262,22 @@ Disable GitHub `popups`
 git config --global credential.modalPrompt false
 ```
 
+## Git Pull Requests and Merging + Badge
+
+`STEPS`
+
+1. Clone the GitHub repo `git clone https://github.com/NickBwalley/repo.git`
+2. Create a branch and switch to it `git checkout -b newBranch`
+3. `git add .`
+4. `git commit -m "initial commit"`
+5. `git push origin newBranch`
+6. `git remote add upstream https://github.com/NickBwalley/repo.git`
+7. `git rebase upstream/master` # add changes to your local existing work
+
+```
+git config --global credential.modalPrompt false
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
