@@ -73,13 +73,13 @@ git push -f
 
 ## Working with GitHub Branches
 
-creates a github branch
+Creates a github branch
 
 ```
 git branch [branchname]
 ```
 
-creates a branch and switches to that branch immediately
+Creates a branch and switches to that branch immediately
 
 ```
 git checkout -b [branchname]
@@ -149,7 +149,7 @@ Clone a project in an organization in GitHub
 git clone https://username@github.com/org_name/repo_name.git
 ```
 
-Switching Remote URL's from SSH to HTTPS
+Switching Remote URL's from `SSH` to `HTTPS`
 
 ```
 git remote set-url origin https://github.com/username/repo.git
@@ -161,7 +161,7 @@ verify that remote URL has changed
 git remote -v
 ```
 
-Switching Remote URL's from HTTPS to SSH
+Switching Remote URL's from `HTTPS` to `SSH`
 
 ```
 git remote set-url origin git@github.com:username/repo.git
