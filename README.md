@@ -179,6 +179,18 @@ Instead of removing then reading again: You can instead use this command.
 git remote set-url origin https://github.com/username/repo.git
 ```
 
+Check if the file in your folder is up to date with the Local Repository
+
+```
+git remote update
+```
+
+Tells you whether the branch you are tracking is ahead, behind or has diverged
+
+```
+git status -uno
+```
+
 ## CLI Useful Features
 
 creating a file from the terminal `windows-CLI`
