@@ -262,6 +262,12 @@ Disable GitHub `popups`
 git config --global credential.modalPrompt false
 ```
 
+Add GitHub `large-file-system`
+
+```
+git lfs install
+```
+
 ## Git Pull Requests and Merging
 
 `STEPS`
