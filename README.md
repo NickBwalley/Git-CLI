@@ -110,6 +110,45 @@ git checkout [branchname]
 ```
 
 ## Advanced GitCommands
+### Pull Request using Git-terminal 
+- First you need to install Github CLI
+- Install and set up in your Windows O.S
+- Restart your terminal and write down the following command.
+
+Use `gh pr` to create the pull request 
+```
+gh pr create --base master --head [branchName] --title "yourTitleHere" --body "yourBodyHere"
+```
+### Commiting  Git LFS files. 
+Initialise and `install` `git lfs`
+```
+git lfs install 
+```
+
+Track specific file types `(e.g., *.png, *.jpg, *.mp4)`
+```
+git lfs track "*.png" "*.jpg" "*.mp4"
+```
+
+```
+git remote add origin https://github.com/yourUsername/nameOftheProject.git
+```
+```
+git lfs push --all origin main
+
+```
+
+```
+git add .
+```
+```
+git commit -m "Add Git LFS tracking info"
+```
+```
+git remote add origin https://github.com/yourUsername/nameOftheProject.git
+```
+
+
 
 Use `amend` to change the commit message
 
@@ -260,6 +299,12 @@ Disable GitHub `popups`
 
 ```
 git config --global credential.modalPrompt false
+```
+
+Add GitHub `large-file-system`
+
+```
+git lfs install
 ```
 
 ## Git Pull Requests and Merging
