@@ -72,7 +72,7 @@ git push -f
 `NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
 
 ## Create a GitHub Repository using Git CLI
-Create a repository interactively
+create a repository interactively
 ```
 gh repo create
 ```
