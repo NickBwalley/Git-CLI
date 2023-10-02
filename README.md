@@ -76,13 +76,17 @@ Create a repository interactively
 ```
 gh repo create
 ```
-Create a `public repo` called my-project and clones the same version to local storage
+create a `public repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --public --clone
 ```
-Create a `private repo` called my-project and clones the same version to local storage
+create a `private repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --private --clone
+```
+create a `remote repository` from the `current directory`
+```
+gh repo create my-project --private --source=. --remote=upstream
 ```
 `NOTE:` The commands above will `only` work in the `terminal` if you have installed `Git CLI` 
 
