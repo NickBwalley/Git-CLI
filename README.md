@@ -70,7 +70,11 @@ git push -f
 ```
 
 `NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
-
+## Create a GitHub Repository using Git CLI
+This creates a `public repo` called my-project
+```
+gh repo create my-project --public --clone
+```
 ## Working with GitHub Branches
 
 Creates a github branch
