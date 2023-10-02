@@ -72,11 +72,15 @@ git push -f
 `NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
 
 ## Create a GitHub Repository using Git CLI
-This creates a `public repo` called my-project and clones the same version to local storage
+Create a repository interactively
+```
+gh repo create
+```
+Create a `public repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --public --clone
 ```
-This creates a `private repo` called my-project and clones the same version to local storage
+Create a `private repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --private --clone
 ```
