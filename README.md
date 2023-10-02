@@ -80,6 +80,8 @@ This creates a `private repo` called my-project and clones the same version to l
 ```
 gh repo create my-project --private --clone
 ```
+`NOTE:` The commands above will `only` work on terminal if you have installed `Git CLI` 
+
 ## Working with GitHub Branches
 
 Creates a github branch
