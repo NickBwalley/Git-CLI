@@ -2,7 +2,7 @@
 
 ## Basic GitCommands
 
-To perform a github clone
+* To perform a github clone
 
 ```
 git clone https://github.com/username/repo_name.git
