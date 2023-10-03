@@ -2,7 +2,7 @@
 
 ## Basic GitCommands
 
-* #### Clone a GitHub repository
+* Clone a GitHub repository
 
 ```
 git clone https://github.com/username/repo_name.git
@@ -10,53 +10,53 @@ git clone https://github.com/username/repo_name.git
 
 * Assume you have a project `gitty-project` you would like to add to github. Here are the steps
 
-Initialize a git repo
+(i) Initialize a git repo
 
 ```
 git init
 ```
 
-Add all files to the git staging area
+(ii) Add all files to git staging area
 
 ```
 git remote add origin https://github.com/username/gitty-project.git
 ```
-
+(iii) 
 ```
 git add .
 ```
-
+(iv)
 Confirm that it has been added to the git staging area
 
 ```
 git status
 ```
-
+(v)
 Commit your changes witth a message `initial commit`
 
 ```
 git commit -m "initial commit"
 ```
-
+(vi)
 Push your changes to the upstream origin `master` the `main` github repo `gitty-project`
 
 ```
 git push -u origin master
 ```
 
-Pull the latest commit to the staging area github
+* Pull the latest commit to the staging area github
 
 ```
 git pull
 ```
 
-Pull the latest commit from GitHub main/master and replace changes on the HDD
+* Pull the latest commit from GitHub main/master and replace changes on the HDD
 
 ```
 git reset --hard origin/master
 ```
 
-Revert the last 5 commits
+* Revert the last 5 commits
 
 ```
 git reset --hard HEAD~5
