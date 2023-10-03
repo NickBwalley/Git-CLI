@@ -8,7 +8,7 @@
 git clone https://github.com/username/repo_name.git
 ```
 
-* ## Assume you have a project `gitty-project` you would like to add to github. Here are the steps
+* Assume you have a project `gitty-project` you would like to add to github. Here are the steps
 
 Initialize a git repo
 
