@@ -1,7 +1,5 @@
 # GitHub CheatSheet
-
-## Basic GitCommands
-
+## Basic GH Commands
 * Clone a GitHub repository
 
 ```
