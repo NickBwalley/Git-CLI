@@ -128,21 +128,30 @@ Switch to a branch
 git checkout [branchname]
 ```
 
-## Advanced GitCommand
-### Working with pull requests GH command line 
-- First you need to install Github CLI
-- Install and set up in your Windows O.S
-- Restart your terminal and write down the following command.
+## Working with pull requests GH CLI
+* First you need to install Github CLI
+* Install and set up in your Windows O.S
+* Restart your terminal and write down the following command.
 
 Use `gh pr` to create the pull request 
 ```
-gh pr create --base master --head [branchName] --title "yourTitleHere" --body "yourBodyHere"
+gh pr create --base master --head "yourBranchNameHere" --title "yourTitleHere" --body "yourBodyTextHere"
 ```
 
 Use `gh pr list` to list how many pull requests that are there in a repository
 ```
 gh pr list
 ```
+
+This command will list all of the open pull requests in the current repository.
+You can also filter the results by state, author, assignee, and other criteria. 
+For example, to list all of the closed pull requests in the current repository, 
+you would use the following command:
+
+```
+gh pr list --state closed
+```
+
 ### Commiting  Git LFS files. 
 Initialise and `install` `git lfs`
 ```
