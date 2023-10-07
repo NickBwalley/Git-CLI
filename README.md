@@ -128,8 +128,8 @@ Switch to a branch
 git checkout [branchname]
 ```
 
-## Advanced GitCommands
-### Pull Request using Git-terminal 
+## Advanced GitCommand
+### Working with pull requests GH command line 
 - First you need to install Github CLI
 - Install and set up in your Windows O.S
 - Restart your terminal and write down the following command.
@@ -137,6 +137,11 @@ git checkout [branchname]
 Use `gh pr` to create the pull request 
 ```
 gh pr create --base master --head [branchName] --title "yourTitleHere" --body "yourBodyHere"
+```
+
+Use `gh pr list` to list how many pull requests that are there in a repository
+```
+gh pr list
 ```
 ### Commiting  Git LFS files. 
 Initialise and `install` `git lfs`
