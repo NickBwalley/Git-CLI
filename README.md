@@ -351,8 +351,6 @@ Add GitHub `large-file-system`
 git lfs install
 ```
 
-## Git Pull Requests and Merging
-
 `STEPS`
 
 1. Clone the GitHub repo `git clone https://github.com/NickBwalley/repo.git`
