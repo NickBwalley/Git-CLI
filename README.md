@@ -128,7 +128,7 @@ Switch to a branch
 git checkout [branchname]
 ```
 
-## Working with pull requests GH CLI
+## Working with GH Pull-Requests
 * First you need to install Github CLI
 * Install and set up in your Windows O.S
 * Restart your terminal and write down the following command.
@@ -152,7 +152,18 @@ you would use the following command:
 gh pr list --state closed
 ```
 
-### Commiting  Git LFS files. 
+You can also use the gh pr view command to open the pull request in a web browser.
+To do this, simply add the --web flag to the command. For example:
+```
+gh pr view 123 --web
+```
+
+
+To merge a pull request in GitHub using the GitHub CLI, you can use the following command:
+```
+gh pr merge
+```
+## Working with GH LFS (Large File System)  
 Initialise and `install` `git lfs`
 ```
 git lfs install 
@@ -208,9 +219,9 @@ git config --global user.name [your_github_username]
 git config --global user.email [your_email]
 ```
 
-create a file from the `linux-terminal` and do not push it to GitHub
-Note we place all the files and folders that we don't want to commit to GitHub in this file `.gitignore`
-
+Creates a file named `.gitignore`. 
+NOTE: This command is a very special command and it is used to create a file and be able to exempt
+it not to be able to be pushed to the github central repository. Like /node-modules. 
 ```
 touch .gitignore
 ```
