@@ -364,13 +364,13 @@ git lfs install
 creating a file from the terminal `windows-CLI`
 
 ```
-touch [filename.html]
+touch "filename.html"
 ```
 
 creating a file from the terminal `linux-CLI`
 
 ```
-sudo nano [filename.html]
+sudo nano "filename.html"
 ```
 
 Install a package_name.deb command
