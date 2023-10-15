@@ -93,13 +93,13 @@ gh repo create my-project --private --source=. --remote=upstream
 Creates a github branch
 
 ```
-git branch [branchname]
+git branch "yourBranchName"
 ```
 
 Creates a branch and switches to that branch immediately
 
 ```
-git checkout -b [branchname]
+git checkout -b "yourBranchName"
 ```
 
 List github branches
