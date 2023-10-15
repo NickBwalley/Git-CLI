@@ -201,7 +201,7 @@ git commit --amend
 Remove a file from the Git Staging area
 
 ```
-git rm --cached [filename]
+git rm --cached "fileName"
 ```
 
 Adds any file with a `.html` extension
@@ -213,8 +213,8 @@ git add *.html
 Configure git staging and pushing to your GitHub account
 
 ```
-git config --global user.name [your_github_username]
-git config --global user.email [your_email]
+git config --global user.name "your_github_username"
+git config --global user.email "your_email"
 ```
 
 Creates a file named `.gitignore`. 
