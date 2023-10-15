@@ -111,19 +111,19 @@ git branch -a
 Delete a branch
 
 ```
-git branch --delete [branchname]
+git branch --delete "branchName"
 ```
 
 Rename a local branch
 
 ```
-git branch -m [old branch name] [new branch name]
+git branch -m "oldBranchName" "newBranchName"
 ```
 
 Switch to a branch
 
 ```
-git checkout [branchname]
+git checkout "branchName"
 ```
 
 ## Working with GH Pull-Requests
