@@ -93,13 +93,13 @@ gh repo create my-project --private --source=. --remote=upstream
 Creates a github branch
 
 ```
-git branch "yourBranchName"
+git branch <yourBranchName>
 ```
 
 Creates a branch and switches to that branch immediately
 
 ```
-git checkout -b "yourBranchName"
+git checkout -b <yourBranchName>
 ```
 
 List github branches
@@ -111,19 +111,19 @@ git branch -a
 Delete a branch
 
 ```
-git branch --delete "branchName"
+git branch --delete <branchName>
 ```
 
 Rename a local branch
 
 ```
-git branch -m "oldBranchName" "newBranchName"
+git branch -m <oldBranchName> <newBranchName>
 ```
 
 Switch to a branch
 
 ```
-git checkout "branchName"
+git checkout <branchName>
 ```
 
 ## Working with GH Pull-Requests
@@ -133,7 +133,7 @@ git checkout "branchName"
 
 Use `gh pr` to create the pull request 
 ```
-gh pr create --base master --head "yourBranchNameHere" --title "yourTitleHere" --body "yourBodyTextHere"
+gh pr create --base master --head <yourBranchNameHere> --title <yourTitleHere> --body <yourBodyTextHere
 ```
 
 Use `gh pr list` to list how many pull requests that are there in a repository
