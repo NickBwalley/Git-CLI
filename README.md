@@ -3,7 +3,7 @@
 ### Clone a GitHub repository
 
 ```
-git clone https://github.com/username/repo_name.git
+git clone https://github.com/username/the_repo_name.git
 ```
 
 ### Initialize a git repo
@@ -44,79 +44,79 @@ git push -u origin master
 git pull
 ```
 
-* Pull the latest commit from GitHub main/master and replace changes on the HDD
+### Pull the latest commit from `GitHub main/master` and replace changes on the `HDD` Directly. 
 
 ```
 git reset --hard origin/master
 ```
 
-* Revert the last 5 commits
+### Revert the last 5 commits
 
 ```
 git reset --hard HEAD~5
 ```
 
-`NOTE!!!`: If you have already pushed to a remote, you will get a fast-forward error because your local history diverges from the remote history.
-`THEREFORE:`To fix this error and push your changes to the remote, use:
+### `NOTE!!!`: If you have already pushed to a remote, you will get a fast-forward error because your local history diverges from the remote history. 
+### `THEREFORE:`To fix this error and push your changes to the remote, use:
 
 ```
 git push -f
 ```
 
-`NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
+### `NOTE!!!` However, use git push --force with extreme caution because it can result in lost work if you are not careful.
 
 ## Create a GitHub Repository using Git CLI
-create a repository interactively
+### create a repository interactively
 ```
 gh repo create
 ```
-create a `public repo` called my-project and clones the same version to local storage
+### create a `public repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --public --clone
 ```
-create a `private repo` called my-project and clones the same version to local storage
+### create a `private repo` called my-project and clones the same version to local storage
 ```
 gh repo create my-project --private --clone
 ```
-create a `remote repository` from the `current directory`
+### create a `remote repository` from the `current directory`
 ```
 gh repo create my-project --private --source=. --remote=upstream
 ```
-`NOTE:` The commands above will `only` work in the `terminal` if you have installed `Git CLI` 
+### `NOTE:` The commands above will `only` work in the `terminal` if you have installed `Git CLI` 
 
 ## Working with GitHub Branches
 
-Creates a github branch
+### Creating a github branch
 
 ```
 git branch <yourBranchName>
 ```
 
-Creates a branch and switches to that branch immediately
+### Creating a branch and switch to that branch immediately
 
 ```
 git checkout -b <yourBranchName>
 ```
 
-List github branches
+### List all the github branches
 
 ```
 git branch -a
 ```
 
-Delete a branch
+### Delete a branch
 
 ```
 git branch --delete <branchName>
 ```
 
-Rename a local branch
+### Rename a local branch
 
 ```
 git branch -m <oldBranchName> <newBranchName>
 ```
 
-Switch to a branch
+### Switch to a specific branch
 
 ```
 git checkout <branchName>
