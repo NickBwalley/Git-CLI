@@ -122,6 +122,12 @@ git branch -m <oldBranchName> <newBranchName>
 git checkout <branchName>
 ```
 
+### Clone from a specific branch in a project
+
+```
+git clone -b demo <link to the repo>
+```
+
 ## Working with GH Pull-Requests
 * First you need to install Github CLI
 * Install and set up in your Windows O.S
