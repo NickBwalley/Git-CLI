@@ -1,5 +1,5 @@
 # GitHub CheatSheet
-## 1. BASIC GITHUB COMMANDS
+# 1. BASIC GITHUB COMMANDS
 ### Clone a GitHub repository
 
 ```
@@ -84,7 +84,7 @@ gh repo create my-project --private --source=. --remote=upstream
 ```
 ### `NOTE:` The commands above will `only` work in the `terminal` if you have installed `Git CLI` 
 
-## 2. WORKING WITH GITHUB BRANCHES
+# 2. WORKING WITH GITHUB BRANCHES
 
 ### Creating a github branch
 
@@ -128,7 +128,7 @@ git checkout <branchName>
 git clone -b demo <link to the repo>
 ```
 
-## 3. WORKING WITH GH-PULL REQUEST
+# 3. WORKING WITH GH-PULL REQUEST
 * First you need to install Github CLI
 * Install and set up in your Windows O.S
 * Restart your terminal and write down the following command.
@@ -163,7 +163,7 @@ To merge a pull request in GitHub using the GitHub CLI, you can use the followin
 ```
 gh pr merge
 ```
-## 4. WORKING WITH GH LFS (Large File System)  
+# 4. WORKING WITH GH LFS (Large File System)  
 Initialise and `install` `git lfs`
 ```
 git lfs install 
@@ -350,7 +350,7 @@ Add GitHub `large-file-system`
 ```
 git lfs install
 ```
-## 5. STEP BY STEP
+# 5. STEP BY STEP
 `STEPS`
 
 1. Clone the GitHub repo `git clone https://github.com/NickBwalley/repo.git`
@@ -361,7 +361,7 @@ git lfs install
 6. `git remote add upstream https://github.com/NickBwalley/repo.git`
 7. `git rebase upstream/master` # add changes to your local existing work.
 
-## 6. CLI USEFUL FEATURES
+# 6. CLI USEFUL FEATURES
 
 creating a file from the terminal `windows-CLI`
 
