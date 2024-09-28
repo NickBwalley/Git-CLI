@@ -141,6 +141,29 @@ git commit -m "firstcommit" // does the commit to your branch
 git push origin Jainick2 // now commits changes to your branch
 
 ```
+## STEP BY STEP DELETING A BRANCH FROM LOCAL REPO AND ALSO ON GITHUB
+STEP 1: Delete the Branch Locally: First, delete the branch from your local repository.
+```
+git branch -d <branch-name>  # Use -d for safe delete (only deletes if branch is fully merged)
+git branch -D <branch-name>  # Use -D to force delete (deletes even if branch is not merged)
+```
+STEP 2: Delete the Branch Remotely: To delete the branch on GitHub, you need to push a delete request to the remote repository. This can be done using the following command:
+```
+git push origin --delete <branch-name>
+```
+STEP 3: SUMMARY OF THE ABOVE
+```
+# Delete branch locally
+git branch -d <branch_name>
+
+# Force delete locally (if required)
+git branch -D <branch_name
+
+# Delete branch remotely on GitHub
+git push origin --delete <branch_name
+
+```
+
 
 # 3. WORKING WITH GH-PULL REQUEST
 * First you need to install Github CLI
