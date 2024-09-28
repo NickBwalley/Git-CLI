@@ -127,6 +127,16 @@ git checkout <branchName>
 ```
 git clone -b demo <link to the repo>
 ```
+## STEP BY STEP PROCEDURE TO COMMIT TO GITHUB BRANCH 
+```
+git init // this initializes to a working git repo
+git remote add origin https://github.com/<your_username>/<name_of_project.git // add to your working directory
+git checkout -b <name_of_your_branch> // creates a branch of that name and switches directly to it.
+git add . // adds all
+git commit -m "firstcommit" // does the commit to your branch
+git push origin Jainick2 // now commits changes to your branch
+
+```
 
 # 3. WORKING WITH GH-PULL REQUEST
 * First you need to install Github CLI
