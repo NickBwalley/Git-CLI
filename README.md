@@ -127,6 +127,10 @@ git checkout <branchName>
 ```
 git clone -b demo <link to the repo>
 ```
+### Delete a branch by detaching since it's impossible to delete it when you are currently inside it
+```
+git checkout --detach
+```
 ## STEP BY STEP PROCEDURE TO COMMIT TO GITHUB BRANCH 
 ```
 git init // this initializes to a working git repo
