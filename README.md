@@ -234,7 +234,12 @@ git remote add origin https://github.com/yourUsername/nameOftheProject.git
 Use `amend` to change the commit message
 
 ```
-git commit --amend
+git commit --amend -m "your_new_commit_message_here"
+```
+
+`NOTE:` If you had already performed `git push` then you will have to run this command below otherwise just do a normal `git push`
+```
+git push --force
 ```
 
 Remove a file from the Git Staging area
